@@ -11,6 +11,7 @@
 		7951235C2AF3D1AD00776474 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951235B2AF3D1AD00776474 /* ContentView.swift */; };
 		7951235E2AF3D1AF00776474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7951235D2AF3D1AF00776474 /* Assets.xcassets */; };
 		795123612AF3D1AF00776474 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795123602AF3D1AF00776474 /* Preview Assets.xcassets */; };
+		795123682AF3D94700776474 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795123672AF3D94700776474 /* CircleButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7951235B2AF3D1AD00776474 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7951235D2AF3D1AF00776474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		795123602AF3D1AF00776474 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		795123672AF3D94700776474 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				7951235B2AF3D1AD00776474 /* ContentView.swift */,
 				7951235D2AF3D1AF00776474 /* Assets.xcassets */,
 				7951235F2AF3D1AF00776474 /* Preview Content */,
+				795123672AF3D94700776474 /* CircleButtonView.swift */,
 			);
 			path = StopWatchProject;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795123682AF3D94700776474 /* CircleButtonView.swift in Sources */,
 				7951235C2AF3D1AD00776474 /* ContentView.swift in Sources */,
 				7951235A2AF3D1AD00776474 /* StopWatchProjectApp.swift in Sources */,
 			);
