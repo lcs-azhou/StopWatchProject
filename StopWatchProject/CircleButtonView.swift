@@ -8,11 +8,44 @@
 import SwiftUI
 
 struct CircleButtonView: View {
+    
+//    Mark: Stored properties
+    let buttonColor: Color
+    let label: String
+    let labelColor: Color
+    
+//    Mark: Computed properties
+    
+//    returns the button's user interface...
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        //                create a circular button
+                        ZStack {
+                            
+        //                    first layer
+                            Circle()
+                                .foregroundColor(buttonColor)
+                                .frame(width: 100)
+                            
+        //                    second layer
+                            Circle()
+                                .foregroundColor(.black)
+                                .frame(width: 93)
+                            
+        //                    third layer
+                            Circle()
+                                .foregroundColor(buttonColor)
+                                .frame(width: 89)
+                            
+        //                    fourth layer
+                            Text(label)
+                                .foregroundColor(labelColor)
+                                .font(.title2)
+                        }
     }
 }
 
 #Preview {
-    CircleButtonView()
+    CircleButtonView(buttonColor: .gray,
+                     label: "Reset",
+                     labelColor: .white)
 }
